@@ -1,11 +1,20 @@
 {
-    "extends": ["react-app", "plugin:prettier/recommended"],
-    "rules":{
-        "prettier/prettier": [
-            "error",
-            {
-                "endOfLine": "auto"
-            }
-        ]
-    }
+    "extends": [
+        "eslint:recommended",
+        "prettier",
+        "eslint-config-prettier"
+    ],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ]
+    // "rules": {
+    //     "prettier/prettier": [
+    //         "error",
+    //         {
+    //             "endOfLine": "auto"
+    //         }
+    //     ]
+    // }
 }
